@@ -14,7 +14,7 @@ export default {
 ```
 Add the now registered `v-scroll-context` directive (or whatever you have called it) to your element and pass it a `callback` (required). You can also provide `params` to be passed into the callback.
 You can also pass in the `throttle` value which will be passed to [lodash.trottle](https://www.npmjs.com/package/lodash.throttle).
-
+[[https://github.com/davidkrijgsman/vue-scroll-context/blob/master/amount-revealed.jpg|alt=amount revealed explained]]
 ```
 <figure v-scroll-context="{ callback: scrollCallback, params: { multiplier: 0.05 }, throttle: 30 }">
     <img ... />
