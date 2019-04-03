@@ -25,7 +25,7 @@ You can also pass in the `throttle` value which will be passed to [lodash.trottl
 The callback gets passed the element, the calculated context and the params you passed into the directive.
 The context consists of
   - `rect` which is the result of `getBoundingClientRect()`
-  - `amountRevealed` which is the numbers of pixels the element is in view
+  - `amountRevealed` which is the numbers of pixels the element is in view (only if it's in view or user scrolled past, otherwise returns 0)
 ![amount revealed explained](https://github.com/davidkrijgsman/vue-scroll-context/blob/master/amount-revealed.jpg)
 
 You can use it to create a parallax effect, for example:
