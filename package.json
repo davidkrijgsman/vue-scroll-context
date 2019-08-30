@@ -1,15 +1,15 @@
 {
   "name": "vue-scroll-context",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vue directive that passes some positioning context to a callback",
   "main": "dist/vue-scroll-context.js",
   "dependencies": {
     "lodash.throttle": "^4.1.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "npm-watch": "^0.6.0",
     "rollup": "^0.66.1",
     "rollup-plugin-babel": "^4.3.2",
@@ -18,13 +18,18 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"build": "rollup -c",
-	"watch": "npm-watch"
+    "build": "rollup -c",
+    "watch": "npm-watch"
   },
   "watch": {
     "build": "src/*.js"
   },
-  "keywords": ["vue", "directive", "position", "scroll"],
+  "keywords": [
+    "vue",
+    "directive",
+    "position",
+    "scroll"
+  ],
   "author": "David Krijgsman <hello@davidkrijgsman.com>",
   "license": "MIT",
   "homepage": "https://github.com/davidkrijgsman/vue-scroll-context",
